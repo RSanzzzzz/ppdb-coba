@@ -1,0 +1,23 @@
+2025-04-08 15:15:14 - Mencoba mengirim email ke: saranclip@gmail.com, Subjek: Update Status Pendaftaran PPDB - PPDB2025463
+Email berhasil dikirim menggunakan PHPMailer
+2025-04-08 15:16:17 - Mencoba mengirim email ke: saranclip@gmail.com, Subjek: Update Status Pendaftaran PPDB - PPDB2025463
+Email berhasil dikirim menggunakan PHPMailer
+2025-04-08 15:18:49 - Mencoba mengirim email ke: saranclip@gmail.com, Subjek: Update Status Pendaftaran PPDB - PPDB2025463
+Gagal mengirim email dengan PHPMailer: SMTP Error: Could not authenticate.
+Gagal mengirim email dengan fungsi mail() bawaan
+2025-04-08 15:20:03 - Mencoba mengirim email ke: saranclip@gmail.com, Subjek: Update Status Pendaftaran PPDB - PPDB2025463
+Email berhasil dikirim menggunakan PHPMailer
+2025-04-08 15:27:52 - Mencoba mengirim email ke: 2203010381@unper.ac.id, Subjek: Update Status Pendaftaran PPDB - PPDB2025647
+Email berhasil dikirim menggunakan PHPMailer
+2025-04-08 15:28:30 - Mencoba mengirim email ke: 2203010381@unper.ac.id, Subjek: Update Status Pendaftaran PPDB - PPDB2025647
+Email berhasil dikirim menggunakan PHPMailer
+2025-04-08 15:29:25 - Mencoba mengirim email ke: 2203010381@unper.ac.id, Subjek: Update Status Pendaftaran PPDB - PPDB2025647
+Email berhasil dikirim menggunakan PHPMailer
+2025-04-14 14:13:58 - Mencoba mengirim email ke: 2203010381@unper.ac.id, Subjek: Update Status Pendaftaran PPDB - PPDB2025220
+Email berhasil dikirim menggunakan PHPMailer
+2025-04-14 14:14:09 - Mencoba mengirim email ke: 2203010381@unper.ac.id, Subjek: Update Status Pendaftaran PPDB - PPDB2025220
+Email berhasil dikirim menggunakan PHPMailer
+2025-04-20 14:34:56 - Mencoba mengirim email ke: rsanz@g.com, Subjek: Update Status Pendaftaran PPDB - PPDB2025373
+Email berhasil dikirim menggunakan PHPMailer
+2025-04-20 14:35:04 - Mencoba mengirim email ke: rsanz@g.com, Subjek: Update Status Pendaftaran PPDB - PPDB2025373
+Email berhasil dikirim menggunakan PHPMailer
