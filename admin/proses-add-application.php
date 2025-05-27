@@ -229,7 +229,7 @@ if ($result) {
     // Kirim email notifikasi jika ada email
     $emailSent = false;
     if (!empty($_POST['email'])) {
-        require_once '../includes/email-helper.php';
+        require_once '../includes/emailHelper.php';
 
         $subject = "Pendaftaran PPDB Anda Telah Diterima - " . $registration_number;
         $emailContent = getStatusUpdateEmailTemplate($_POST['fullName'], $registration_number, 'accepted', '');
