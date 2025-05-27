@@ -89,6 +89,20 @@ $acceptedApplications = $stmtAccepted->fetchColumn();
 
 $stmtRejected = $pdo->query("SELECT COUNT(*) FROM applicants WHERE status = 'rejected'");
 $rejectedApplications = $stmtRejected->fetchColumn();
+
+function tanggal_indo($tanggal) {
+    $bulan_indo = array(
+        1 => 'Jan', 2 => 'Feb', 3 => 'Mar', 4 => 'Apr',
+        5 => 'Mei', 6 => 'Jun', 7 => 'Jul', 8 => 'Ags',
+        9 => 'Sep', 10 => 'Okt', 11 => 'Nov', 12 => 'Des'
+    );
+    
+    $d = date('d', strtotime($tanggal));
+    $m = $bulan_indo[date('n', strtotime($tanggal))];
+    $y = date('Y', strtotime($tanggal));
+    
+    return $d . ' ' . $m . ' ' . $y;
+}
 ?>
 <!DOCTYPE html>
 <html lang="id">
@@ -325,7 +339,7 @@ $rejectedApplications = $stmtRejected->fetchColumn();
                                     <td class="px-4 py-3 text-sm"><?php echo htmlspecialchars($app['registration_number']); ?></td>
                                     <td class="px-4 py-3 text-sm"><?php echo htmlspecialchars($app['full_name']); ?></td>
                                     <td class="px-4 py-3 text-sm"><?php echo htmlspecialchars($app['nisn']); ?></td>
-                                    <td class="px-4 py-3 text-sm"><?php echo date('d M Y', strtotime($app['created_at'])); ?></td>
+                                    <td class="px-4 py-3 text-sm"><?php echo tanggal_indo($app['created_at']); ?></td>
                                     <td class="px-4 py-3 text-sm">
                                         <?php
                                         $statusClass = 'status-' . $app['status'];
