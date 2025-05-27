@@ -177,7 +177,7 @@ if (isset($_SESSION['user_id'])) {
                         </li>
                         <li class="flex items-center gap-2">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Jl. Ciawi Bojonggambir, Desa Bojonggambir, Kec. Bojonggambir, Kab. Tasikmalaya</span>
+                            <span>Jl. Raya Ciawi Bojonggambir No. 54, Desa Bojonggambir, Kec. Bojonggambir, Kab. Tasikmalaya</span>
                         </li>
                     </ul>
                 </div>
