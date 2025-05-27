@@ -143,8 +143,57 @@ if (isset($_SESSION['user_id'])) {
     </main>
     
     <footer class="bg-dark py-6 text-dark-foreground">
-        <div class="container mx-auto px-4 text-center text-sm">
-            <p>© <?php echo date('Y'); ?> Sistem Informasi Penerimaan Peserta Didik Baru. Hak Cipta Dilindungi.</p>
+        <div class="container mx-auto px-4">
+            <div class="grid gap-6 md:grid-cols-3">
+                <div>
+                    <h3 class="mb-3 text-lg font-medium text-white">PPDB Online</h3>
+                    <p class="text-sm text-gray-300">
+                        Sistem Informasi Penerimaan Peserta Didik Baru untuk memudahkan proses pendaftaran siswa baru.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="mb-3 text-lg font-medium text-white">Kontak Kami</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>0812-9857-0328 (Teti Hukmiati, S.Ag)</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>0813-1204-1422 (Yulli Yulisman, S.Pd)</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>0852-2151-7479 (Atep Rahman, S.Pd)</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>0858-6054-7292 (Iman S Rohman)</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-envelope"></i>
+                            <span>mtsalishlahhits@gmail.com</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Jl. Ciawi Bojonggambir, Desa Bojonggambir, Kec. Bojonggambir, Kab. Tasikmalaya</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="mb-3 text-lg font-medium text-white">Tautan</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="?tab=info" class="hover:text-white hover:underline">Informasi PPDB</a></li>
+                        <li><a href="?tab=contact" class="hover:text-white hover:underline">Hubungi Kami</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-6 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
+                <p>© <?php echo date('Y'); ?> Sistem Informasi Penerimaan Peserta Didik Baru. Hak Cipta Dilindungi.</p>
+            </div>
         </div>
     </footer>
 </body>
