@@ -117,6 +117,7 @@ if (isset($_SESSION['user_id'])) {
                         <p class="text-sm text-muted-foreground">Pendaftaran selesai dan menunggu hasil pemeriksaan</p>
                     </div>
                 </div>
+                <h2 class="mt-10 font-bold text-4x1 text-dark text-center">Gratis Baju Batik & Kaos Bagi 100 Pendaftar Pertama</h2>
             </div>
         </section>
         
@@ -129,20 +130,12 @@ if (isset($_SESSION['user_id'])) {
                         <div>Tanggal</div>
                     </div>
                     <div class="grid grid-cols-2 border-b p-4 text-dark">
-                        <div>Pendaftaran Online</div>
-                        <div>1 Maret - 15 Juni 2025</div>
+                        <div>Pendaftaran Gelombang 1</div>
+                        <div>1 Maret - 31 Mei 2025</div>
                     </div>
                     <div class="grid grid-cols-2 border-b p-4 text-dark">
-                        <div>Verifikasi Berkas</div>
-                        <div>16 - 25 Juni 2025</div>
-                    </div>
-                    <div class="grid grid-cols-2 border-b p-4 text-dark">
-                        <div>Pengumuman Hasil</div>
-                        <div>1 Juli 2025</div>
-                    </div>
-                    <div class="grid grid-cols-2 p-4 text-dark">
-                        <div>Daftar Ulang</div>
-                        <div>11 - 15 Juli 2025</div>
+                        <div>Pendaftaran Gelombang 2</div>
+                        <div>1 Juni - 15 Juli 2025</div>
                     </div>
                 </div>
             </div>
