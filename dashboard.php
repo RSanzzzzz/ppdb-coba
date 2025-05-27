@@ -1096,7 +1096,7 @@ if (isset($_GET['submitted']) && $_GET['submitted'] == '1') {
                         </li>
                         <li class="flex items-center gap-2">
                             <i class="fas fa-envelope"></i>
-                            <span>emailSekolah@gmail.com</span>
+                            <span>mtsalishlahhits@gmail.com</span>
                         </li>
                         <li class="flex items-center gap-2">
                             <i class="fas fa-map-marker-alt"></i>
