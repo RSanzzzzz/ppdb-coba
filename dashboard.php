@@ -717,7 +717,7 @@ if (isset($_GET['submitted']) && $_GET['submitted'] == '1') {
                             <!-- Dokumen Lama -->
                             <div class="space-y-2">
                                 <label for="certificate" class="text-sm font-medium text-dark">
-                                    Ijazah/Surat Keterangan Lulus <span class="text-red-500">*</span>
+                                    Ijazah <span class="text-red-500">*</span>
                                 </label>
                                 <input
                                     type="file"
