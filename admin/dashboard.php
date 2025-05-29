@@ -110,6 +110,7 @@ function tanggal_indo($tanggal) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="8">
     <title>Admin Dashboard - PPDB Online</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Tambahkan SweetAlert2 CSS dan JS -->
